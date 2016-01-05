@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 21 19:07:07 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "o_and" LOCATE = SITE "P15" LEVEL 1;
+COMP "o_xor" LOCATE = SITE "N15" LEVEL 1;
+COMP "o_xnor" LOCATE = SITE "U18" LEVEL 1;
+COMP "o_not_1" LOCATE = SITE "T17" LEVEL 1;
+COMP "o_not_2" LOCATE = SITE "T18" LEVEL 1;
+COMP "o_nor" LOCATE = SITE "U17" LEVEL 1;
+COMP "o_or" LOCATE = SITE "P16" LEVEL 1;
+COMP "i_input_1" LOCATE = SITE "C17" LEVEL 1;
+COMP "i_input_2" LOCATE = SITE "C18" LEVEL 1;
+COMP "o_nand" LOCATE = SITE "N16" LEVEL 1;
+SCHEMATIC END;
+

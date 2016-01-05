@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=/opt/Xilinx/14.7/ISE_DS/gates_test/gates_test.runs/impl_1/gates_test_routed.ncd
+OUTFILE=/opt/Xilinx/14.7/ISE_DS/gates_test/gates_test.runs/impl_1/gates_test.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=/opt/Xilinx/14.7/ISE_DS/gates_test/gates_test.runs/impl_1
+LICENSE=WebPack
+USER_INFO=211086257_0_0_654

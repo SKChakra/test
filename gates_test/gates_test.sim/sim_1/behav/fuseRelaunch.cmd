@@ -1,0 +1,1 @@
+-intstyle "pa" -incremental -L "work" -L "unisims_ver" -L "unimacro_ver" -L "xilinxcorelib_ver" -L "secureip" -o "gates_test.exe" --prj "/opt/Xilinx/14.7/ISE_DS/gates_test/gates_test.sim/sim_1/behav/gates_test.prj" -top "work.gates_test" -top "work.glbl" 

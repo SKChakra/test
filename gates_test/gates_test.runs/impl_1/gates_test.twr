@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -o
+gates_test.twr -v 30 -l 30 gates_test_routed.ncd gates_test.pcf
+
+Design file:              gates_test_routed.ncd
+Physical constraint file: gates_test.pcf
+Device,package,speed:     xc6slx9,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report, limited to 30 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+i_input_1      |o_and          |   10.688|
+i_input_1      |o_nand         |    9.867|
+i_input_1      |o_nor          |   10.204|
+i_input_1      |o_not_1        |    9.231|
+i_input_1      |o_or           |   10.863|
+i_input_1      |o_xnor         |   10.375|
+i_input_1      |o_xor          |    9.671|
+i_input_2      |o_and          |   10.347|
+i_input_2      |o_nand         |    9.621|
+i_input_2      |o_nor          |    9.958|
+i_input_2      |o_not_2        |    8.871|
+i_input_2      |o_or           |   10.522|
+i_input_2      |o_xnor         |   10.175|
+i_input_2      |o_xor          |    9.471|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 21 19:07:20 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 381 MB
+
+
+

@@ -1,0 +1,22 @@
+ISim log file
+Running: gates_test.exe -intstyle pa -gui -tclbatch isim.cmd -wdb gates_test.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /gates_test/i_input_1 0 -radix bin -value 1 -radix bin -time 50 ns -repeat 100 ns
+# isim force add /gates_test/i_input_1 0 -radix bin -value 1 -radix bin -time 50 ns -repeat 100 ns
+# isim force add /gates_test/i_input_2 0 -radix bin -value 1 -radix bin -time 100 ns -repeat 200 ns
+# isim force add /gates_test/i_input_2 0 -radix bin -value 1 -radix bin -time 100 ns -repeat 200 ns
+# run 800ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# exit 0

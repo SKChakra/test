@@ -1,0 +1,14 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -p bin -r gates_test.mcs -o gatetest.bin 
+
+PROM gatetest.prm map: Mon Dec 21 19:17:09 2015
+
+Format        Bin
+Size          512K
+PROM start    00000000
+PROM end      0007ffff
+
+        Addr1        Addr2                     Date File(s)
+     00000000     0005327b     Dec 21 19:13:36 2015 gates_test.mcs
